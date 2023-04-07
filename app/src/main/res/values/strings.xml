@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aura: Meditation and Yoga</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textblock1_homepage">Yoga is an art that traverses beyond asana.</string>
+    <string name="textblock2_homepage">At Aura, we strongly believe in blending asana practice with the power of meditation and breath-awareness to declutter the mind and centre oneself.</string>
+    <string name="textblock3_homepage">Using unique techniques like the sound bath, blind-fold yoga, water meditation and live music meditations, multi-dimensional yogic lessons are imparted by our trainers. This retains the traditional science of yoga while synthesising it in contemporary life.</string>
+</resources>

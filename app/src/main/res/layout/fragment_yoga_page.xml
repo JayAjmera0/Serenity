@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75B2B7"
+    tools:context=".YogaPage">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quando"
+                android:text="Programs for you!"
+                android:textColor="#06363B"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.022" />
+
+            <ImageView
+                android:id="@+id/yoga2"
+                android:layout_width="575dp"
+                android:layout_height="167dp"
+                android:hapticFeedbackEnabled="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/beautiful_young_yoga_girl_lying_in_asana_shavasana_653952114_74c56c2a731b439b8e9f7d0dc0b9dbd2" />
+
+            <ImageView
+                android:id="@+id/yoga3"
+                android:layout_width="396dp"
+                android:layout_height="166dp"
+                android:layout_marginTop="172dp"
+                android:hapticFeedbackEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/_8ab5yqb6k6mk696v" />
+
+            <ImageView
+                android:id="@+id/yoga4"
+                android:layout_width="403dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="352dp"
+                android:hapticFeedbackEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.617"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/titelbild" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/quando"
+                android:text="Restorative Yoga"
+                android:textColor="#06363B"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/yoga5"
+                android:layout_width="279dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="536dp"
+                android:hapticFeedbackEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.583"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/_xfl56o82k70oy7ca" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="132dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="528dp"
+                android:fontFamily="@font/quando"
+                android:text="Chakra Flow Yoga"
+                android:textColor="#06363B"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/yoga2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="111dp"
+                android:layout_height="18dp"
+                android:layout_marginTop="364dp"
+                android:fontFamily="@font/quando"
+                android:text="Vinyasa Flow Yoga"
+                android:textColor="#06363B"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.477"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/yoga2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="137dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="184dp"
+                android:fontFamily="@font/quando"
+                android:text="Yin Yoga"
+                android:textColor="#06363B"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
